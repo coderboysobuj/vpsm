@@ -80,22 +80,9 @@ You may edit this file directly — blank lines and `#` comments are supported.
 
 ---
 
-## Project layout
 
-```
-vpsm/
-├── vpsm.h      — All types, constants, and public function prototypes
-├── main.c      — CLI entry point + command dispatch table
-├── server.c    — In-memory CRUD on ServerList
-├── store.c     — Flat-file persistence (load / save)
-├── ssh.c       — Build + exec the ssh command
-├── util.c      — String helpers, die()
-└── Makefile
-```
 
----
-
-## Extending vpsm
+## TODO Extending vpsm
 
 ### Add a new command (e.g. `vpsm ping`)
 
